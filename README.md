@@ -57,7 +57,7 @@ $ docker-compose up
 ## Using Self built Docker image 
 You can build your own docker image to run the bot. Follow these steps:
 
-1. Clone the repo or download `docker-compose.yml`
+1. Clone the repo
 ```
 $ git clone https://github.com/aneeshjoy/llama-telegram-bot.git
 $ cd llama-telegram-bot
@@ -68,7 +68,7 @@ $ cd llama-telegram-bot
 5. Run the bot
 
 ```
-$ docker-compose up --build 
+$ docker-compose -f docker-compose-build.yml up --build 
 ```
 
 ## Usage
