@@ -1,5 +1,5 @@
 # Llama.cpp Telegram Bot
-A simple telegram chat bot for LLMs supported by [llama.cpp](https://github.com/ggerganov/llama.cpp)
+A simple Telegram chat bot for LLMs supported by [llama.cpp](https://github.com/ggerganov/llama.cpp)
 
 Easiest way to share your selfhosted ChatGPT style interface with friends and family! 
 Even group chat with your AI friend!
