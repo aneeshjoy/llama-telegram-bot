@@ -17,6 +17,9 @@ Even group chat with your AI friend!
 ## Demo
 
 
+https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/23c869bc-164b-4030-bc70-7a7b864c8601
+
+
 ## Installation
 ### What do you need?
 1. A free Telegram bot token from [@BotFather](https://t.me/BotFather)
