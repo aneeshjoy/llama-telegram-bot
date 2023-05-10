@@ -36,7 +36,7 @@ $ export MODEL_PATH=/path/to/your/model/file
 $ python3 bot.py
 ````
 
-## Using Prebuilt Docker docker image 
+## Using Prebuilt Docker image 
 
 You can use pre-built docker image to run the bot. Follow these steps:
 
@@ -54,7 +54,7 @@ $ cd llama-telegram-bot
 $ docker-compose up
 ```
 
-## Using Self built Docker docker image 
+## Using Self built Docker image 
 You can build your own docker image to run the bot. Follow these steps:
 
 1. Clone the repo or download `docker-compose.yml`
