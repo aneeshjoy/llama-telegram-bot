@@ -4,6 +4,11 @@ A simple telegram chat bot for LLMs supported by [llama.cpp](https://github.com/
 Easiest way to share your selfhosted ChatGPT style interface with friends and family! 
 Even group chat with your AI friend!
 
+## Demo
+
+
+https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/23c869bc-164b-4030-bc70-7a7b864c8601
+
 ## Features
 1. Easy to setup and run
 2. Group chat
@@ -13,12 +18,6 @@ Even group chat with your AI friend!
 6. Streaming responses
 7. New chat command
 8. Supports LLMs supported by [llama.cpp](https://github.com/ggerganov/llama.cpp)
-
-## Demo
-
-
-https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/23c869bc-164b-4030-bc70-7a7b864c8601
-
 
 ## Installation
 ### What do you need?
