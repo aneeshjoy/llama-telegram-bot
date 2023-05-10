@@ -7,7 +7,9 @@ Even group chat with your AI friend!
 ## Demo
 
 
-https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/23c869bc-164b-4030-bc70-7a7b864c8601
+
+https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/51e44641-faa3-4ecf-9434-282f47aac9a1
+
 
 ## Features
 1. Easy to setup and run
