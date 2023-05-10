@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  llama-bot:
+    container_name: llama-telegram-bot
+    restart: always
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    volumes:
+      - /path/to/models:/models
+    environment:
+      BOT_TOKEN: <Add your telegram bot token here>
+      MODEL_PATH: /models/ggml-alpaca-7b-q4.bin
+      ALLOWED_USERS: ""
