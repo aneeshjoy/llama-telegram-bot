@@ -81,7 +81,7 @@ Once the bot is running, you can use the following commands to generate text:
 
 ## Contributing
 
-We welcome contributions from the community. To contribute, please:
+To contribute, please:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
