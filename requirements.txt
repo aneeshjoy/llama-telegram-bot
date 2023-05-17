@@ -1,2 +1,2 @@
 python-telegram-bot==20.3
-llama-cpp-python==0.1.48
+llama-cpp-python==0.1.50

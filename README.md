@@ -20,6 +20,7 @@ https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/51e44641-faa3-4ec
 6. Streaming responses
 7. New chat command
 8. Supports LLMs supported by [llama.cpp](https://github.com/ggerganov/llama.cpp)
+9. Added GPU Acceleration support
 
 ## Installation
 ### What do you need?

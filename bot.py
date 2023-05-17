@@ -17,8 +17,9 @@ if not MODEL_PATH or not os.path.isfile(MODEL_PATH):
     exit(1)
 
 ALLOWED_USERS = os.getenv("ALLOWED_USERS", "")
+GPU_LAYERS = os.getenv("GPU_LAYERS", 0)
 
-llama = Llama(model_path=MODEL_PATH)
+llama = Llama(model_path=MODEL_PATH, n_gpu_layers=int(GPU_LAYERS))
 
 memory = {}
 context_len = 256
