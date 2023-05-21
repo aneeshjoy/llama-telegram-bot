@@ -13,7 +13,7 @@ services:
       BOT_TOKEN: <Add your telegram bot token here>
       MODEL_PATH: /models/wizardLM-7B.ggml.q4_0.bin
       ALLOWED_USERS: ""
-      GPU_LAYERS: 26
+      GPU_LAYERS: 30
 
     deploy:
       resources:
