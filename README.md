@@ -20,7 +20,8 @@ https://github.com/aneeshjoy/llama-telegram-bot/assets/5285961/51e44641-faa3-4ec
 6. Streaming responses
 7. New chat command
 8. Supports LLMs supported by [llama.cpp](https://github.com/ggerganov/llama.cpp)
-9. Added GPU Acceleration support
+9. GPU Acceleration support
+10. Voice chat
 
 ## Installation
 ### What do you need?
@@ -36,6 +37,12 @@ $ export BOT_TOKEN=<Your Telegram bot token>
 $ export MODEL_PATH=/path/to/your/model/file
 $ python3 bot.py
 ````
+
+## GPU Acceleration
+For GPU acceleration specify additional environment variables:
+```
+LLAMA_CUBLAS=1 CMAKE_ARGS="-DLLAMA_CUBLAS=ON" FORCE_CMAKE=1 pip3 install -r requirements.txt
+```
 
 ## Using Prebuilt Docker image 
 

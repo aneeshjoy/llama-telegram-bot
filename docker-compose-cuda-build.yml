@@ -1,5 +1,8 @@
 version: "3"
 
+volumes:
+  temp: {}
+
 services:
   llama-bot:
     container_name: llama-telegram-bot
@@ -8,12 +11,13 @@ services:
       context: "."
       dockerfile: Dockerfile.cuda
     volumes:
-      - /path/to/models:/models
+      - /path/to/model:/models
+      - temp:/tmp
     environment:
-      BOT_TOKEN: <Add your telegram bot token here>
-      MODEL_PATH: /models/wizardLM-7B.ggml.q4_0.bin
+      BOT_TOKEN: <add bot token here>
+      MODEL_PATH: /models/Wizard-Vicuna-7B-Uncensored.ggmlv3.q4_0.bin
       ALLOWED_USERS: ""
-      GPU_LAYERS: 30
+      GPU_LAYERS: 32
 
     deploy:
       resources:

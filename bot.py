@@ -3,6 +3,7 @@ from enum import Enum
 import tempfile
 from pathlib import Path
 
+
 from telegram.constants import ChatAction, ParseMode
 from telegram import Update, BotCommand, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, Application, \
@@ -135,12 +136,11 @@ async def start_text_chat(update: Update, context: CallbackContext) -> None:
     await query.answer()
     await query.message.reply_text('Text chat enabled')
 
-
 # Invokes llama api and returns generated chat response
 async def generate_chat_response(prompt, temp_msg, context):
     chat_out = ""
     try:
-        tokens = llama.create_completion(prompt, max_tokens=240, top_p=1, stop=["\n"], stream=True)
+        tokens = llama.create_completion(prompt, max_tokens=240, top_p=1, stop=["</s>"], stream=True)
         resp = []
         for token in tokens:
             tok = token["choices"][0]["text"]

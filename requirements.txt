@@ -1,4 +1,4 @@
 python-telegram-bot==20.3
-llama-cpp-python==0.1.52
+llama-cpp-python==0.1.56
 pyttsx3==2.90
 pydub==0.25.1
